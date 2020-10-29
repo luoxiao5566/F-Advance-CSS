@@ -1,3 +1,13 @@
+header,
+body,
+main,
+aside,
+footer,
+ul,
+p {
+  border: 1px solid yellow;
+}
+
 body,
 html {
   margin: 0;
@@ -13,8 +23,49 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  margin: 0;
+}
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  padding: 15px;
+  background: black;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  margin-left: 180px;
+}
+
+.aside-left {
+  margin-left: 170px;
+  width: 460px;
+}
+.aside-left h2 {
+  font-style: italic;
+}
+
+.about {
+  background-color: #f8f9fa;
+  padding-left: 30px;
+}
+
+.about p {
+  width: 90%;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.nav-time {
+  padding-left: 30px;
 }
